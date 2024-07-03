@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-03T13:40:13.950Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="eUJ8XDSJeeXFjWW1HggK" version="24.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-03T13:50:50.455Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="4i7wXmABJJQlztgoxwf3" version="24.6.2" type="github">
   <diagram id="7OK4WaRRGmC01p3s4jBd" name="Page">
     <mxGraphModel dx="727" dy="-5437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,16 +22,16 @@
           <mxGeometry y="69" width="336" height="133" as="geometry" />
         </mxCell>
         <mxCell id="We9xeH8q5oOFazqO6uOZ-1" value="PublicTransitAnalysis" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="333" y="5870" width="520" height="410" as="geometry" />
+          <mxGeometry x="333" y="5870" width="560" height="410" as="geometry" />
         </mxCell>
         <mxCell id="We9xeH8q5oOFazqO6uOZ-2" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="We9xeH8q5oOFazqO6uOZ-1" vertex="1">
-          <mxGeometry y="26" width="520" height="26" as="geometry" />
+          <mxGeometry y="26" width="560" height="26" as="geometry" />
         </mxCell>
         <mxCell id="We9xeH8q5oOFazqO6uOZ-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="We9xeH8q5oOFazqO6uOZ-1" vertex="1">
-          <mxGeometry y="52" width="520" height="8" as="geometry" />
+          <mxGeometry y="52" width="560" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="We9xeH8q5oOFazqO6uOZ-4" value="&lt;div&gt;+ method(type): type&lt;/div&gt;&lt;div&gt;- __init__(iface)&lt;/div&gt;&lt;div&gt;+ tr(message): return&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ add_action( icon_path, text, callback, enabled_flag=True, add_to_menu=True, add_to_toolbar=True, status_tip=None, whats_this=None, parent=None): return&lt;/div&gt;&lt;div&gt;+ initGui(): None&lt;/div&gt;&lt;div&gt;+ unload(): None&lt;/div&gt;&lt;div&gt;+ check_grizzly_server_is_running(): None&lt;/div&gt;&lt;div&gt;+ get_request_url: Str&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="We9xeH8q5oOFazqO6uOZ-1" vertex="1">
-          <mxGeometry y="60" width="520" height="350" as="geometry" />
+        <mxCell id="We9xeH8q5oOFazqO6uOZ-4" value="&lt;div&gt;+ method(type): type&lt;/div&gt;&lt;div&gt;- __init__(iface)&lt;/div&gt;&lt;div&gt;+ tr(message): return&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ add_action( icon_path, text, callback, enabled_flag=True, add_to_menu=True, add_to_toolbar=True, status_tip=None, whats_this=None, parent=None): return&lt;/div&gt;&lt;div&gt;+ initGui(): None&lt;/div&gt;&lt;div&gt;+ unload(): None&lt;/div&gt;&lt;div&gt;+ check_grizzly_server_is_running(): None&lt;/div&gt;&lt;div&gt;+ get_request_url(): Str&lt;/div&gt;&lt;div&gt;+ query_all_stops_incl_departure_times(poi: Request): dict&lt;/div&gt;&lt;div&gt;+ create_request_object(): Request&lt;/div&gt;&lt;div&gt;+ create_dataframe_with_station_attributes(station_collection: List, poi:Request): DataFrame&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="We9xeH8q5oOFazqO6uOZ-1" vertex="1">
+          <mxGeometry y="60" width="560" height="350" as="geometry" />
         </mxCell>
         <mxCell id="We9xeH8q5oOFazqO6uOZ-5" value="Station" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="667" y="6350" width="160" height="86" as="geometry" />
